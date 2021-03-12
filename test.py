@@ -20,6 +20,10 @@ class ArithTest (unittest.TestCase):
 
         self.assertEqual(Simple_Calculator.add(10, 15), 25, msg='10 + 15 = 25 failed')
 
+        self.assertEqual(Simple_Calculator.divide(50, 10), 5, msg='50 / 10 failed')
+
+        self.assertFalse(Simple_Calculator.subtract(20, 5) == 14, msg='20 - 5 = 14 fail test failed')
+
 
 
 
