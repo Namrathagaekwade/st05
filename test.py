@@ -14,7 +14,7 @@ class ArithTest (unittest.TestCase):
 
         self.failUnlessEqual(Simple_Calculator.multiply(2, 2), 4, msg='2 * 2 failed')
 
-        self.assertTrue(Simple_Calculator.subtract(10, 3) == 7, msg='10 - 3 failed')
+        self.assertTrue(Simple_Calculator.subtract(13, 6) == 7, msg='13 - 6 failed')
 
         self.assertTrue(Simple_Calculator.multiply(5, 5) == 25, msg='5 * 5 failed')
 
