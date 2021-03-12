@@ -12,6 +12,10 @@ class ArithTest (unittest.TestCase):
 
         self.failIf(Simple_Calculator.divide(10, 2) == 3, msg='10/2 = 3 fail test failed')
 
+        self.failUnlessEqual(Simple_Calculator.multiply(2, 2), 4, msg='2 * 2 failed')
+
+        self.assertTrue(Simple_Calculator.subtract(13, 6) == 7, msg='13 - 6 failed')
+
 
 
 
