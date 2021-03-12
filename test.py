@@ -12,17 +12,6 @@ class ArithTest (unittest.TestCase):
 
         self.failIf(Simple_Calculator.divide(10, 2) == 3, msg='10/2 = 3 fail test failed')
 
-        self.failUnlessEqual(Simple_Calculator.multiply(2, 2), 4, msg='2 * 2 failed')
-
-        self.assertTrue(Simple_Calculator.subtract(13, 6) == 7, msg='13 - 6 failed')
-
-        self.assertTrue(Simple_Calculator.multiply(5, 5) == 25, msg='5 * 5 failed')
-
-        self.assertEqual(Simple_Calculator.add(10, 15), 25, msg='10 + 15 = 25 failed')
-
-        self.assertEqual(Simple_Calculator.divide(50, 10), 5, msg='50 / 10 failed')
-
-        self.assertFalse(Simple_Calculator.subtract(20, 5) == 14, msg='20 - 5 = 14 fail test failed')
 
 
 
