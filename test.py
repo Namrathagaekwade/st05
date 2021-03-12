@@ -16,6 +16,10 @@ class ArithTest (unittest.TestCase):
 
         self.assertTrue(Simple_Calculator.subtract(13, 6) == 7, msg='13 - 6 failed')
 
+        self.assertTrue(Simple_Calculator.multiply(5, 5) == 25, msg='5 * 5 failed')
+
+        self.assertEqual(Simple_Calculator.add(10, 15), 25, msg='10 + 15 = 25 failed')
+
 
 
 
